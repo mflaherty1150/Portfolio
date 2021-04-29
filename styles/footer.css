@@ -1,0 +1,42 @@
+#main-footer {
+	position: relative;
+	height: 3em;
+	background-color: var(--accent);
+	color: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+
+.horizontal-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.horizontal-list li {
+	display: inline-block;
+}
+
+.horizontal-list a {
+	color: rgba(255,255,255,.5);
+}
+
+.horizontal-list a:hover {
+	color: rgba(255,255,255,.75);
+	text-decoration: none;
+}
+.horizontal-list a:active {
+	color: white;
+}
+
+#main-footer ul li i {
+	margin-right: .25em;
+}
+
+@media only screen and (max-width: 600px) {
+	#main-footer ul li i {
+		visibility: hidden;
+		margin: 0;
+		width: 0;
+	}
+}

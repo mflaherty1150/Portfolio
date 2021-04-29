@@ -1,0 +1,43 @@
+#contact form {
+	text-align: center;
+	padding-left: 2em;
+}
+
+.form-input {
+	width: 100%;
+	border: solid 1px dimgray;
+	padding: .4em;
+	outline: none;
+	margin-bottom: 1em;
+}
+
+#form-submit {
+	width: 25%;
+	background-color: white;
+	outline: none !important;
+	transition: .5s;
+}
+
+#form-submit:hover {
+	background-color: var(--accent);
+	border: solid 1px var(--accent);
+	color: white;
+	transition: .5s;
+	cursor: pointer;
+}
+
+#message {
+	resize: none;
+}
+
+@media only screen and (max-width: 600px) {
+	#contact-form {
+		margin-top: 1em;
+	}
+	#form-submit {
+		width: 100%;
+	}
+	#contact form {
+		padding-left: 0;
+	}
+}

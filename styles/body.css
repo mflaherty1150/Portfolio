@@ -1,0 +1,38 @@
+#body-content {
+	color: var(--primary-text);
+	margin: auto;
+}
+
+#body-content a {
+	text-decoration: underline;
+	color: var(--primary-text);
+}
+
+#body-content a:hover {
+	color: var(--accent);
+}
+
+#body-content section:nth-of-type(even) {
+	background-color: var(--primary-bg-color);
+	color: white;
+}
+
+#body-content section:nth-of-type(even) a {
+	color: white;
+}
+
+#body-content section:nth-of-type(even) a:hover {
+	color: var(--accent-light);
+}
+
+#body-content section {
+	padding: 5em 5% 2em 5%;
+}
+
+#body-content hr {
+	border-color: var(--accent-transparent);
+}
+
+#body-content section:nth-of-type(even) hr {
+	border-color: #ffffff80;
+}

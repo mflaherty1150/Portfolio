@@ -1,0 +1,31 @@
+@import url("./styles/colors.css");
+@import url("./styles/header.css");
+@import url("./styles/subtitle.css");
+@import url("./styles/navbar.css");
+@import url("./styles/body.css");
+@import url("./styles/skills.css");
+@import url("./styles/contact.css");
+@import url("./styles/footer.css");
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Orienta', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	text-align: left;
+}
+
+#header  {
+	height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}
